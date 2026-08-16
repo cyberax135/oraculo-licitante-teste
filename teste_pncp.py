@@ -7,10 +7,11 @@ import os
 LOG_FILE = "pncp_smoke_test.log"
 
 def teste_pncp():
-    url = "https://pncp.gov.br/api/pncp/v1/orgaos"
-    
     agora_br = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3)))
     timestamp = agora_br.strftime("%Y-%m-%d %H:%M:%S")
+    hoje_str = agora_br.strftime("%Y%m%d")
+    
+    url = f"https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao?dataInicial={hoje_str}&dataFinal={hoje_str}&codigoModalidadeContratacao=8&pagina=1"
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
@@ -26,8 +27,8 @@ def teste_pncp():
         if status_code == 200:
             try:
                 dados = response.json()
-                # Verifica se retornou dados estruturados (ex: cnpj)
-                if "cnpj" in dados or "razaoSocial" in dados:
+                # Verifica se retornou dados estruturados (ex: array 'data' ou cnpj)
+                if "data" in dados or "cnpj" in dados or "razaoSocial" in dados:
                     valido_json = True
             except json.JSONDecodeError:
                 valido_json = False
