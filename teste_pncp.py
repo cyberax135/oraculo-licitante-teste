@@ -7,7 +7,7 @@ import os
 LOG_FILE = "pncp_smoke_test.log"
 
 def teste_pncp():
-    url = "https://pncp.gov.br/api/pncp/v1/orgaos/26989715000185"
+    url = "https://pncp.gov.br/api/pncp/v1/orgaos"
     
     agora_br = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3)))
     timestamp = agora_br.strftime("%Y-%m-%d %H:%M:%S")
