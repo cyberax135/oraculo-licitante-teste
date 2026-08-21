@@ -179,3 +179,4 @@
 [2026-08-21 14:22:21] Status: 200 | JSON Valido: True | Tempo: 1.40s | Erro: Nenhum
 [2026-08-21 14:54:42] Status: 200 | JSON Valido: True | Tempo: 1.71s | Erro: Nenhum
 [2026-08-21 15:27:32] Status: 200 | JSON Valido: True | Tempo: 1.54s | Erro: Nenhum
+[2026-08-21 16:07:01] Status: 503 | JSON Valido: False | Tempo: 0.80s | Erro: Nenhum
