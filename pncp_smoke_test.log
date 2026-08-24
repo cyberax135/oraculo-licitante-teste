@@ -294,3 +294,4 @@
 [2026-08-24 17:22:24] Status: 200 | JSON Valido: True | Tempo: 1.56s | Erro: Nenhum
 [2026-08-24 17:57:19] Status: 200 | JSON Valido: True | Tempo: 1.58s | Erro: Nenhum
 [2026-08-24 18:28:07] Status: 200 | JSON Valido: True | Tempo: 1.42s | Erro: Nenhum
+[2026-08-24 18:54:20] Status: N/A | JSON Valido: False | Tempo: 15.85s | Erro: HTTPSConnectionPool(host='pncp.gov.br', port=443): Read timed out. (read timeout=15)
