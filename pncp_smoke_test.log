@@ -333,3 +333,4 @@
 [2026-08-25 20:47:13] Status: 200 | JSON Valido: True | Tempo: 1.07s | Erro: Nenhum
 [2026-08-25 21:56:18] Status: 200 | JSON Valido: True | Tempo: 1.09s | Erro: Nenhum
 [2026-08-25 23:23:04] Status: 200 | JSON Valido: True | Tempo: 0.93s | Erro: Nenhum
+[2026-08-26 00:32:01] Status: 204 | JSON Valido: False | Tempo: 1.01s | Erro: Nenhum
