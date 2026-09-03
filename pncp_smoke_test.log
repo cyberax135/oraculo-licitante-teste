@@ -385,3 +385,4 @@
 [2026-09-02 13:45:34] Status: N/A | JSON Valido: False | Tempo: 15.72s | Erro: HTTPSConnectionPool(host='pncp.gov.br', port=443): Read timed out. (read timeout=15)
 [2026-09-02 16:36:09] Status: 200 | JSON Valido: True | Tempo: 2.07s | Erro: Nenhum
 [2026-09-02 19:15:11] Status: N/A | JSON Valido: False | Tempo: 15.55s | Erro: HTTPSConnectionPool(host='pncp.gov.br', port=443): Read timed out. (read timeout=15)
+[2026-09-02 21:27:09] Status: 200 | JSON Valido: True | Tempo: 1.90s | Erro: Nenhum
