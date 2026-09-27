@@ -543,3 +543,4 @@
 [2026-09-26 12:32:43] Status: 200 | JSON Valido: True | Tempo: 0.67s | Erro: Nenhum
 [2026-09-26 15:54:56] Status: 200 | JSON Valido: True | Tempo: 0.75s | Erro: Nenhum
 [2026-09-26 18:44:25] Status: 200 | JSON Valido: True | Tempo: 0.66s | Erro: Nenhum
+[2026-09-26 21:06:00] Status: N/A | JSON Valido: False | Tempo: 15.14s | Erro: HTTPSConnectionPool(host='pncp.gov.br', port=443): Max retries exceeded with url: /api/consulta/v1/contratacoes/publicacao?dataInicial=20260926&dataFinal=20260926&codigoModalidadeContratacao=8&pagina=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='pncp.gov.br', port=443) at 0x7f98b6107e10>, 'Connection to pncp.gov.br timed out. (connect timeout=15)'))
