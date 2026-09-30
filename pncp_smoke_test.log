@@ -558,3 +558,4 @@
 [2026-09-29 11:11:10] Status: 200 | JSON Valido: True | Tempo: 0.85s | Erro: Nenhum
 [2026-09-29 16:31:14] Status: 200 | JSON Valido: True | Tempo: 1.22s | Erro: Nenhum
 [2026-09-29 20:21:01] Status: N/A | JSON Valido: False | Tempo: 0.62s | Erro: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-09-29 23:13:57] Status: N/A | JSON Valido: False | Tempo: 0.61s | Erro: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
